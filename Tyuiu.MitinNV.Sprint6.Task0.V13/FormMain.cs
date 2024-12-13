@@ -34,7 +34,7 @@ namespace Tyuiu.MitinNV.Sprint6.Task0.V13
         }
         private void buttonInfoDone_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Спринт #6 | Таск #0 | Выполнил: Митин Никита Владимирович | ИИПБ-24-1", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Сринт #6 | Таск #0 | Выполнил: Митин Никита Владимирович | ИИПБ-24-1", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void groupBoxResult_Enter(object sender, EventArgs e)
