@@ -25,12 +25,16 @@ namespace Tyuiu.MitinNV.Sprint6.Task1.V23
             DataService ds = new DataService();
             try
             {
-                var x = ds.GetMassFunction(Convert.ToInt32(textBoxValueX_MNV.Text), Convert.ToInt32(textBoxValueY_MNV.Text));
-                string s = "";
-                foreach (var item in x)
+                var x = Convert.ToInt32(textBoxValueX_MNV.Text);
+                var res = ds.GetMassFunction(x, Convert.ToInt32(textBoxValueY_MNV.Text));
+                string s = "x     F(x)\n";
+                foreach (var item in res)
                 {
-                    s += item.ToString() + " ";
+                    s += $"{x}     {item}\n";
+
+                    x++;
                 }
+
                 labelResult_MNV.Text = s;
             }
             catch
@@ -74,6 +78,11 @@ namespace Tyuiu.MitinNV.Sprint6.Task1.V23
         }
 
         private void labelCond_MNV_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelResult_MNV_Click(object sender, EventArgs e)
         {
 
         }

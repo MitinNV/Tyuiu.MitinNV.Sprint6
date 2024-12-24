@@ -30,8 +30,6 @@ partial class FormMain
     {
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
         buttonResult_MNV = new Button();
-        groupResultBox_MNV = new GroupBox();
-        labelResult_MNV = new Label();
         textBoxValueX_MNV = new TextBox();
         groupBoxValueX_MNV = new GroupBox();
         buttonToGetInfo_MNV = new Button();
@@ -40,11 +38,15 @@ partial class FormMain
         labelCond_MNV = new Label();
         groupBoxValueY_MNV = new GroupBox();
         textBoxValueY_MNV = new TextBox();
-        groupResultBox_MNV.SuspendLayout();
+        groupResultBox_MNV = new GroupBox();
+        panelResult_MNV = new Panel();
+        labelResult_MNV = new Label();
         groupBoxValueX_MNV.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_MNV).BeginInit();
         groupBoxCondition_MNV.SuspendLayout();
         groupBoxValueY_MNV.SuspendLayout();
+        groupResultBox_MNV.SuspendLayout();
+        panelResult_MNV.SuspendLayout();
         SuspendLayout();
         // 
         // buttonResult_MNV
@@ -57,26 +59,6 @@ partial class FormMain
         buttonResult_MNV.Text = "Результат";
         buttonResult_MNV.UseVisualStyleBackColor = true;
         buttonResult_MNV.Click += buttonDone_Click;
-        // 
-        // groupResultBox_MNV
-        // 
-        groupResultBox_MNV.Controls.Add(labelResult_MNV);
-        groupResultBox_MNV.Location = new Point(25, 118);
-        groupResultBox_MNV.Name = "groupResultBox_MNV";
-        groupResultBox_MNV.Size = new Size(513, 121);
-        groupResultBox_MNV.TabIndex = 1;
-        groupResultBox_MNV.TabStop = false;
-        groupResultBox_MNV.Text = "Результат";
-        groupResultBox_MNV.Enter += groupBoxResult_Enter;
-        // 
-        // labelResult_MNV
-        // 
-        labelResult_MNV.AutoSize = true;
-        labelResult_MNV.Location = new Point(6, 30);
-        labelResult_MNV.Name = "labelResult_MNV";
-        labelResult_MNV.Size = new Size(0, 20);
-        labelResult_MNV.TabIndex = 0;
-        labelResult_MNV.TextAlign = ContentAlignment.MiddleRight;
         // 
         // textBoxValueX_MNV
         // 
@@ -122,7 +104,6 @@ partial class FormMain
         // 
         groupBoxCondition_MNV.Controls.Add(labelCond_MNV);
         groupBoxCondition_MNV.Controls.Add(pictureBoxFormula_MNV);
-        groupBoxCondition_MNV.Controls.Add(groupResultBox_MNV);
         groupBoxCondition_MNV.Location = new Point(12, 12);
         groupBoxCondition_MNV.Name = "groupBoxCondition_MNV";
         groupBoxCondition_MNV.Size = new Size(776, 299);
@@ -158,13 +139,45 @@ partial class FormMain
         textBoxValueY_MNV.Size = new Size(125, 27);
         textBoxValueY_MNV.TabIndex = 2;
         // 
+        // groupResultBox_MNV
+        // 
+        groupResultBox_MNV.Controls.Add(panelResult_MNV);
+        groupResultBox_MNV.Location = new Point(794, 23);
+        groupResultBox_MNV.Name = "groupResultBox_MNV";
+        groupResultBox_MNV.Size = new Size(269, 358);
+        groupResultBox_MNV.TabIndex = 1;
+        groupResultBox_MNV.TabStop = false;
+        groupResultBox_MNV.Text = "Результат";
+        groupResultBox_MNV.Enter += groupBoxResult_Enter;
+        // 
+        // panelResult_MNV
+        // 
+        panelResult_MNV.AutoScroll = true;
+        panelResult_MNV.Controls.Add(labelResult_MNV);
+        panelResult_MNV.Location = new Point(6, 21);
+        panelResult_MNV.Name = "panelResult_MNV";
+        panelResult_MNV.Size = new Size(257, 326);
+        panelResult_MNV.TabIndex = 0;
+        // 
+        // labelResult_MNV
+        // 
+        labelResult_MNV.AutoSize = true;
+        labelResult_MNV.Location = new Point(41, 12);
+        labelResult_MNV.Name = "labelResult_MNV";
+        labelResult_MNV.Size = new Size(60, 20);
+        labelResult_MNV.TabIndex = 0;
+        labelResult_MNV.Text = "x     F(x)";
+        labelResult_MNV.TextAlign = ContentAlignment.MiddleRight;
+        labelResult_MNV.Click += labelResult_MNV_Click;
+        // 
         // FormMain
         // 
         AutoScaleDimensions = new SizeF(8F, 20F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(800, 393);
+        ClientSize = new Size(1075, 393);
         Controls.Add(groupBoxValueY_MNV);
         Controls.Add(groupBoxCondition_MNV);
+        Controls.Add(groupResultBox_MNV);
         Controls.Add(buttonToGetInfo_MNV);
         Controls.Add(groupBoxValueX_MNV);
         Controls.Add(buttonResult_MNV);
@@ -176,8 +189,6 @@ partial class FormMain
         StartPosition = FormStartPosition.CenterScreen;
         Text = "Спринт #6 | Выполнил: Митин Никита Владимирович | ИИПБ-24-1";
         Load += FormMain_Load;
-        groupResultBox_MNV.ResumeLayout(false);
-        groupResultBox_MNV.PerformLayout();
         groupBoxValueX_MNV.ResumeLayout(false);
         groupBoxValueX_MNV.PerformLayout();
         ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_MNV).EndInit();
@@ -185,14 +196,15 @@ partial class FormMain
         groupBoxCondition_MNV.PerformLayout();
         groupBoxValueY_MNV.ResumeLayout(false);
         groupBoxValueY_MNV.PerformLayout();
+        groupResultBox_MNV.ResumeLayout(false);
+        panelResult_MNV.ResumeLayout(false);
+        panelResult_MNV.PerformLayout();
         ResumeLayout(false);
     }
 
     #endregion
 
     private Button buttonResult_MNV;
-    private GroupBox groupResultBox_MNV;
-    private Label labelResult_MNV;
     private TextBox textBoxValueX_MNV;
     private GroupBox groupBoxValueX_MNV;
     private Button buttonToGetInfo_MNV;
@@ -201,4 +213,7 @@ partial class FormMain
     private Label labelCond_MNV;
     private GroupBox groupBoxValueY_MNV;
     private TextBox textBoxValueY_MNV;
+    private GroupBox groupResultBox_MNV;
+    private Panel panelResult_MNV;
+    private Label labelResult_MNV;
 }
