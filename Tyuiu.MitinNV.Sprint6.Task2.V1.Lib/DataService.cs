@@ -13,7 +13,13 @@ namespace Tyuiu.MitinNV.Sprint6.Task2.V1.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round(Math.Cos(x) + ((Math.Sin(x)) / (2.0 - 2.0 * x)) - 4.0 * x, 2);
+                if (2.0 - 2.0 * x == 0)
+                {
+                    y = 0;
+                } else
+                {
+                    y = Math.Round(Math.Cos(x) + ((Math.Sin(x)) / (2.0 - 2.0 * x)) - 4.0 * x, 2);
+                }
                 valueArray[count] = y;
                 count++;
             }
