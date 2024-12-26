@@ -8,7 +8,7 @@ namespace Tyuiu.MitinNV.Sprint6.Task3.V22.Lib
         {
             for (int i = 0; i < 5; i++)
             {
-                if (matrix[0, i]%2 == 0)
+                if (Math.Abs(matrix[0, i]) % 2 == 0)
                 {
                     matrix[0, i] = 0;
                 }
