@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task4.V25.Test", "Tyuiu.MitinNV.Sprint6.Task4.V25.Test\Tyuiu.MitinNV.Sprint6.Task4.V25.Test.csproj", "{330DB081-DCC0-403E-BFD3-621D8F09A12B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task5.V27.Lib", "Tyuiu.MitinNV.Sprint6.Task5.V27.Lib\Tyuiu.MitinNV.Sprint6.Task5.V27.Lib.csproj", "{E90F0274-E2BC-47FC-BC76-405811005DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task5.V27", "Tyuiu.MitinNV.Sprint6.Task5.V27\Tyuiu.MitinNV.Sprint6.Task5.V27.csproj", "{2E55DFE9-E782-428E-ABB7-4331A11F4EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task5.V27.Test", "Tyuiu.MitinNV.Sprint6.Task5.V27.Test\Tyuiu.MitinNV.Sprint6.Task5.V27.Test.csproj", "{8EFE5044-3F54-4D89-BEC7-805C4F0609EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +108,17 @@ Global
 		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90F0274-E2BC-47FC-BC76-405811005DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90F0274-E2BC-47FC-BC76-405811005DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90F0274-E2BC-47FC-BC76-405811005DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90F0274-E2BC-47FC-BC76-405811005DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E55DFE9-E782-428E-ABB7-4331A11F4EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E55DFE9-E782-428E-ABB7-4331A11F4EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E55DFE9-E782-428E-ABB7-4331A11F4EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E55DFE9-E782-428E-ABB7-4331A11F4EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFE5044-3F54-4D89-BEC7-805C4F0609EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFE5044-3F54-4D89-BEC7-805C4F0609EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFE5044-3F54-4D89-BEC7-805C4F0609EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFE5044-3F54-4D89-BEC7-805C4F0609EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
