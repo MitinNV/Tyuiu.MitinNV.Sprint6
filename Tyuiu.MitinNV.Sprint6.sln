@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task3.V22.Test", "Tyuiu.MitinNV.Sprint6.Task3.V22.Test\Tyuiu.MitinNV.Sprint6.Task3.V22.Test.csproj", "{4313899B-CD44-4F98-B4B4-6D4FE56B0A7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task4.V25.Lib", "Tyuiu.MitinNV.Sprint6.Task4.V25.Lib\Tyuiu.MitinNV.Sprint6.Task4.V25.Lib.csproj", "{6F40720C-5AA8-4542-9B5D-CB0F918F66C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task4.V25", "Tyuiu.MitinNV.Sprint6.Task4.V25\Tyuiu.MitinNV.Sprint6.Task4.V25.csproj", "{AB874678-FE9C-4D7F-A86B-C182A244819F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MitinNV.Sprint6.Task4.V25.Test", "Tyuiu.MitinNV.Sprint6.Task4.V25.Test\Tyuiu.MitinNV.Sprint6.Task4.V25.Test.csproj", "{330DB081-DCC0-403E-BFD3-621D8F09A12B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +90,17 @@ Global
 		{4313899B-CD44-4F98-B4B4-6D4FE56B0A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4313899B-CD44-4F98-B4B4-6D4FE56B0A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4313899B-CD44-4F98-B4B4-6D4FE56B0A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F40720C-5AA8-4542-9B5D-CB0F918F66C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F40720C-5AA8-4542-9B5D-CB0F918F66C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F40720C-5AA8-4542-9B5D-CB0F918F66C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F40720C-5AA8-4542-9B5D-CB0F918F66C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB874678-FE9C-4D7F-A86B-C182A244819F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB874678-FE9C-4D7F-A86B-C182A244819F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB874678-FE9C-4D7F-A86B-C182A244819F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB874678-FE9C-4D7F-A86B-C182A244819F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330DB081-DCC0-403E-BFD3-621D8F09A12B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
